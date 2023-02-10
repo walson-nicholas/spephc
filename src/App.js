@@ -1,12 +1,13 @@
-import Navbar from "./assets/components/navbar"
-import Main from "./assets/components/main"
-import Main from "./assets/components/theme"
+import Navbar from "./assets/components/Navbar"
+import Main from "./assets/components/Main"
+import Theme from "./assets/components/Theme"
 
 function App() {
   return (
     <div>
       <Navbar />
       <Main />
+      <Theme />
   </div>
   );
 }
