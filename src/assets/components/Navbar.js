@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import React from "react"
-import '../css/Navbar.css'
+import '../css/navbar.css'
 import pic from '../img/spelogo.png'
 
 export default function Navbar() {
