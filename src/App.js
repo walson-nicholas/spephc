@@ -1,5 +1,6 @@
 import Navbar from "./assets/components/Navbar"
 import Main from "./assets/components/Main"
+import Main from "./assets/components/theme"
 
 function App() {
   return (

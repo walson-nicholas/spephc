@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import React from "react"
-import '../css/Main.css'
+import '../css/main.css'
 
 export default function Main() {
     return (
