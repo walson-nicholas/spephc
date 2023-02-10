@@ -1,5 +1,5 @@
-import Navbar from "./assets/components/Navbar"
-import Main from "./assets/components/Main"
+import Navbar from "./assets/components/navbar"
+import Main from "./assets/components/main"
 import Main from "./assets/components/theme"
 
 function App() {
