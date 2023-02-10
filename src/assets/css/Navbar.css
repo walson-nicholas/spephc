@@ -1,0 +1,57 @@
+nav{
+    box-shadow: 0px 4px 4px -4px rgba(0, 0, 0, 0.25);
+    padding: 1vw 3vw;
+}
+
+#brandlogo{
+    height: 5vw;
+}
+
+.navbar-nav, .dropdown-item{
+    font-size: 1.2vw;
+}
+
+#demo{
+    margin: auto;
+}
+
+.bl-txt{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.bl-txt p:nth-of-type(1){
+    font-size: 1.5vw;
+    margin-bottom: 0;
+}
+
+.bl-txt p:nth-of-type(2){
+    font-size: 1vw;
+    margin-bottom: 0;
+}
+
+.nv-b {
+    display: flex;
+}
+
+.nls{
+    flex-grow: 0;
+}
+
+@media only screen and (max-width: 600px)  {
+    #brandlogo{
+        height: 10vw;
+    }
+
+    .bl-txt p:nth-of-type(1){
+        font-size: 3vw;
+        margin-bottom: 0;
+    }
+    
+    .bl-txt p:nth-of-type(2){
+        font-size: 2vw;
+        margin-bottom: 0;
+    }
+}
