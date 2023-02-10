@@ -3,7 +3,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 import React from "react"
 import '../css/theme.css'
 
-export default function Main() {
+export default function Theme() {
     return (
         <section>
 
