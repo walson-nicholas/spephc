@@ -40,15 +40,9 @@ export default function Navbar() {
                             <li><a class="dropdown-item" href="#">Career Fair</a></li>
                             <li><a class="dropdown-item" href="#">Breakout session</a></li>
                         </ul>
-                    </li>   
-                    
-                    <li class="nav-item">
-                        <a class="nav-link disabled">Events</a>
                     </li>
 
-                    <li class="nav-item">
-                      <a class="nav-link disabled">Blog</a>
-                    </li>
+                    <button type="button" class="btn btn-primary btn-sm" href="#" role="button">REGISTER</button>
 
                     <div id="demo"></div>
                 </ul>

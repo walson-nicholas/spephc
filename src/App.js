@@ -1,12 +1,12 @@
 import Navbar from "./assets/components/Navbar"
-import Main from "./assets/components/Main"
+import Header from "./assets/components/Header"
 import Theme from "./assets/components/Theme"
 
 function App() {
   return (
     <div>
       <Navbar />
-      <Main />
+      <Header />
       <Theme />
   </div>
   );
