@@ -1,7 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import CountdownTimer from "./CountdownTimer"
-import React from "react"
 import '../css/header.css'
 
 export default function Header() {
@@ -22,7 +21,7 @@ export default function Header() {
                     <span>Friday, 14th April - Saturday, 15th April 2023</span>
                 </div>
             </div>
-        
+
             <CountdownTimer />
 
             <div class="header-buttons">
