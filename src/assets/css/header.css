@@ -1,0 +1,40 @@
+header{
+    height: 80vh;
+    background: rgba(0, 0, 0, .65) url(/src/assets/img/header-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.header_icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_icons i{
+    margin-right: 3vw;
+}
+
+.header-buttons{
+    width: 75vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.header-buttons button{
+    width: 20vw;
+}
+
+.CountdownTimer{
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
