@@ -3,13 +3,11 @@ import anticipateflyer from '../img/anticipate flyer.jfif'
 
 export default function Theme() {
     return (
-        <section>
+        <section class="theme">
             <div>
-                <h2>
-                    <span>Theme:</span>
-                    <span>Secure and sustainable energy:</span>
-                    <span>challenges and opportunities for the energy professionals.</span>
-                </h2>
+                <h3>
+                    <span>Theme:</span> <span>Secure and sustainable energy:</span> <span>challenges and opportunities for the energy professionals.</span>
+                </h3>
                 <p>
                     Energy is the fulcrum that propels industrialization in both developed and developing economies. 
                     The essential requirement to sustainably meet the ever-growing global energy demands while maintaining 

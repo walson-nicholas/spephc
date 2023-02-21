@@ -1,6 +1,6 @@
 header{
     height: 80vh;
-    background: rgba(0, 0, 0, .65) url(/src/assets/img/header-background.jpg);
+    background: rgba(0, 0, 0, .65) url(/src/assets/img/wind.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: darken;
@@ -9,6 +9,7 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    background-position: center;
 }
 
 .header_icons{
@@ -37,4 +38,19 @@ header{
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px)  {
+    header{
+        height: 60vh;
+        background-position: center;
+    }
+
+    .header-buttons{
+        width: 90vw;
+    }
+
+    .header-buttons button{
+        font-size: 2vw;
+    }
 }

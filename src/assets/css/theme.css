@@ -1,18 +1,36 @@
-section{
+.theme{
     display: flex;
     justify-content: space-between;
     padding: 5vw 7.5vw;
     background-color: lightblue;
 }
 
-section div{
+.theme div{
     width: 45vw;
 }
 
-section div p{
+.theme div p{
     text-align: justify;
 }
 
-section img{
+.theme img{
     width: 35vw;
+}
+
+@media only screen and (max-width: 600px)  {
+    .theme{
+        flex-direction: column;
+    }
+
+    .theme div{
+        width: 100%;
+    }
+
+    .theme div h2, h3{
+        text-align: center;
+    }
+
+    .theme img{
+        width: 100%;
+    }
 }

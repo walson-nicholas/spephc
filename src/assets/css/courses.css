@@ -1,0 +1,12 @@
+.shortCourses-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-item{
+    width: 35vw;
+}
+
+.card-item img:hover{
+    filter: brightness(50%);
+}

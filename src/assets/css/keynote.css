@@ -1,0 +1,30 @@
+.keynote-speaker{
+    display: flex;
+    padding: 10vh 5vw;
+    justify-content: space-between;
+    background-color: #F4F5F8;
+}
+
+.keynote-speaker img{
+    height: 60vh;
+}
+
+.keynote-speaker .kynt-spk-txt{
+    width: 45vw;
+}
+
+@media only screen and (max-width: 600px)  {
+    .keynote-speaker{
+        flex-direction: column;
+        padding-top: 5vh;
+    }
+
+    .keynote-speaker img{
+        width: 100%;
+        height: 50vh;
+    }
+
+    .keynote-speaker .kynt-spk-txt{
+        width: 100%;    
+    }
+}

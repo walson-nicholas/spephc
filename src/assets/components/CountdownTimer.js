@@ -30,10 +30,10 @@ export default function CountdownTimer() {
 
     return (
         <div className='CountdownTimer'>
-            <span style={{ color: 'red' }}>{days} days</span>
-            <span style={{ color: 'purple' }}>{hours} hours</span> 
-            <span style={{ color: 'blue' }}>{minutes} minutes</span>
-            <span style={{ color: 'orange' }}>{seconds} seconds</span>
+            <span style={{ color: 'red' }}>{days} DAYS</span>
+            <span style={{ color: 'purple' }}>{hours} HOURS</span> 
+            <span style={{ color: 'blue' }}>{minutes} MIN</span>
+            <span style={{ color: 'orange' }}>{seconds} SEC</span>
         </div>
     );
 }

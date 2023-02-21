@@ -7,7 +7,7 @@ import pic from '../img/spelogo.png'
 export default function Navbar() {
     return (
         <nav class="navbar navbar-expand-sm bg-body-tertiary">
-            <div class="container-fluid">
+            <div class="container-fluid nv-bar-wrap">
                 <a class="navbar-brand nv-b" href="#">
                     <img src={pic} alt="spelogo" id="brandlogo"/>
                     <div class="container bl-txt">
@@ -21,31 +21,31 @@ export default function Navbar() {
                 </button>
 
                 <div class="collapse navbar-collapse nls" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About SPE</a>
-                    </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About SPE</a>
+                        </li>
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Symposium
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Panelist</a></li>
-                            <li><a class="dropdown-item" href="#">Short courses</a></li>
-                            <li><a class="dropdown-item" href="#">Career Fair</a></li>
-                            <li><a class="dropdown-item" href="#">Breakout session</a></li>
-                        </ul>
-                    </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Symposium
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Panelist</a></li>
+                                <li><a class="dropdown-item" href="#">Short courses</a></li>
+                                <li><a class="dropdown-item" href="#">Career Fair</a></li>
+                                <li><a class="dropdown-item" href="#">Breakout session</a></li>
+                            </ul>
+                        </li>
 
-                    <button type="button" class="btn btn-primary btn-sm" href="#" role="button">REGISTER</button>
+                        <button type="button" class="btn btn-primary btn-sm" href="#" role="button">REGISTER</button>
 
-                    <div id="demo"></div>
-                </ul>
+                        <div id="demo"></div>
+                    </ul>
                 </div>
             </div>
         </nav>
