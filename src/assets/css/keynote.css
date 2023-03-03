@@ -3,14 +3,27 @@
     padding: 10vh 5vw;
     justify-content: space-between;
     background-color: #F4F5F8;
+    align-items: center;
 }
 
-.keynote-speaker img{
+.kyntspk-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     height: 60vh;
 }
 
+.keynote-speaker img{
+    height: 50vh;
+    width: 25vw;
+}
+
 .keynote-speaker .kynt-spk-txt{
-    width: 45vw;
+    width: 60vw;
+    text-align: justify;
+}
+.keynote-speaker .kynt-spk-txt h2{
+    text-align: center;
 }
 
 @media only screen and (max-width: 600px)  {

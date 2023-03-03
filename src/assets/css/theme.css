@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     padding: 5vw 7.5vw;
-    background-color: lightblue;
+    background-color: #0F319E;
 }
 
 .theme div{
@@ -11,10 +11,25 @@
 
 .theme div p{
     text-align: justify;
+    color: white;
+}
+
+.theme div h3 span:nth-of-type(1){
+    color: Yellow;
+}
+
+.theme div h3 span:nth-of-type(2){
+    color: white;
+}
+
+.theme div h3 span:nth-of-type(3){
+    font-size: 1.5vw;
+    color: yellow;
 }
 
 .theme img{
     width: 35vw;
+    max-height: 80vh;
 }
 
 @media only screen and (max-width: 600px)  {

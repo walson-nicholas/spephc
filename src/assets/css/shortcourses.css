@@ -1,0 +1,67 @@
+.shortCourses-container{
+    background-color: azure;
+    text-align: center;
+    padding: 5vw 0;
+}
+
+.sc-cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-item{
+    margin: 1vw;
+    width: 35vw;
+}
+
+.card-item img{
+    height: 30vh;
+}
+
+.card-item img:hover{
+    filter: brightness(50%);
+}
+
+.card-title{
+    font-size: 1.2vw;
+    font-weight: bolder;
+}
+
+.card-text{
+    font-size: 1vw;
+}
+
+@media only screen and (max-width: 600px)  {
+    .sc-cards{
+        flex-direction: column;
+        padding: 0 5vw;
+    }
+
+    .card-item{
+        margin: 0;
+        margin-bottom: 6vh;
+        width: 100%;
+    }
+
+    .card-item img{
+        padding: 2vw;
+        height: 35vh;
+    }
+
+    .card-title{
+        font-size: 4vw;
+        font-weight: bolder;
+    }
+
+    .card-text{
+        font-size: 3vw;
+    }
+
+    #inviteText{
+        font-size: 4vw;
+    }
+
+    .cd-btn{
+        font-size: 3.5vw;
+    }
+}

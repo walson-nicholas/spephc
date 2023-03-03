@@ -6,23 +6,23 @@ export default function Theme() {
         <section class="theme">
             <div>
                 <h3>
-                    <span>Theme:</span> <span>Secure and sustainable energy:</span> <span>challenges and opportunities for the energy professionals.</span>
+                    <span>Theme:</span> <span>Secure and Sustainable Energy:</span> <span>Challenges and Opportunities for the Energy Professionals.</span>
                 </h3>
                 <p>
-                    Energy is the fulcrum that propels industrialization in both developed and developing economies. 
-                    The essential requirement to sustainably meet the ever-growing global energy demands while maintaining 
-                    minimum environmental impact associated with the recovery and utilization of the conventional 
-                    energy sources has birthed the need to explore alternative and green energy sources.
-                    <br /> <br />
-                    Despite the continuously increasing drive to implement full transition to new energies from the 
-                    currently dominating conventional sources, there is a need for a deliberate, strategic and well-paced 
-                    transition roadmap that integrates all stakeholders for an effective and successful transition journey. 
-                    While ridden its own challenges, the conventional energy sources are playing and will continue to play a 
-                    critical role in ensuring the desired sustainable energy future is achieved.
-                    <br /> <br />
-                    This symposium will focus on the readiness of the oil and gas industry and its Young Professionals for 
-                    these emerging energy frontiers with focus on establishing a strong understanding of the necessary skills 
-                    and attributes required for an effective transition to new energies.
+                    Energy is a critical enabler of economic prosperity, sustainable development, and societal health. 
+                    In the past decade, the energy industry has made some strides to build more sustainable energy 
+                    systems geared towards environmentally friendly society.
+                    <br/><br/>
+                    However, recent global and geopolitical events have highlighted the need to ensure uninterrupted, 
+                    affordable, and accessible energy for human activities. Therefore, it has become pertinent and 
+                    absolutely necessary to find technical and smarter ways to reduce our carbon footprint while, at 
+                    the same time, expanding and diversifying our energy sources. 
+                    <br/><br/>
+                    Striking the right balance between energy security and sustainability is thus critical for the industry. 
+                    This we hope to digest as we converge.
+                    <br/><br/>
+                    This symposium program will feature discussions on the ways forward by addressing the current challenges 
+                    and opportunities in the industry and the need to develop solutions that enable secure and sustainable energy
                 </p>
             </div>
             <img src= {anticipateflyer}/>

@@ -7,11 +7,17 @@
     display: flex;
     justify-content: space-between;
     align-content: center;
+    align-items: center;
 }
 
 .panel-content img{
-    width: 20vw;
-    height: 20vw;
+    width: 30vw;
+    height: 30vw;
+    border-radius: 10%;
+}
+
+.panel-content img:hover{
+    filter: brightness(70%);
 }
 
 .panel-content text{
@@ -24,5 +30,31 @@
 }
 
 @media only screen and (max-width: 600px)  {
-    
+    .panel-content{
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .revImg{
+        flex-direction: column-reverse;
+    }
+
+    .panel-content img{
+        width: 65%;
+        height: 25vh;
+        padding: 0 7vw;
+        border-radius: 3vw;
+        margin-bottom: 2vh;
+    }
+
+    .panel-content text{
+        width: 100%;
+        font-size: 3.5vw;
+        margin-bottom: 3vw;
+    }
+
+    .pn-btn{
+        font-size: 4vw;
+    }
 }

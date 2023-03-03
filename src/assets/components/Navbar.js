@@ -35,14 +35,16 @@ export default function Navbar() {
                                 Symposium
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Panelist</a></li>
-                                <li><a class="dropdown-item" href="#">Short courses</a></li>
-                                <li><a class="dropdown-item" href="#">Career Fair</a></li>
-                                <li><a class="dropdown-item" href="#">Breakout session</a></li>
+                                <li><a class="dropdown-item" href="#panelist-section">Panelist</a></li>
+                                <li><a class="dropdown-item" href="#shortcourses-section">Short courses</a></li>
+                                <li><a class="dropdown-item" href="#careerfair-section">Career Fair</a></li>
+                                <li><a class="dropdown-item" href="#breakout-session">Breakout session</a></li>
                             </ul>
                         </li>
 
-                        <button type="button" class="btn btn-primary btn-sm" href="#" role="button">REGISTER</button>
+                        <a>
+                            <button type="button" class="btn btn-primary btn-sm" href="https://paystack.com/pay/spes103yp-2023symposium" role="button">REGISTER</button>
+                        </a>                       
 
                         <div id="demo"></div>
                     </ul>

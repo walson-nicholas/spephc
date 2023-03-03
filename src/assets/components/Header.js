@@ -27,7 +27,9 @@ export default function Header() {
             <div class="header-buttons">
                 <button type="button" class="btn btn-danger btn-sm" href="#" role="button">REGISTER</button>
                 <button type="button" class="btn btn-info btn-sm" href="#" role="button">DOWNLOAD BROCHURE</button>
-                <button type="button" class="btn btn-warning btn-sm" href="#" role="button">CREATE PERSONALISED FLYER</button>
+                <a href='https://getdp.co/gNR'>
+                    <button type="button" class="btn btn-warning btn-sm" href="#" role="button">CREATE PERSONALISED FLYER</button>
+                </a>
             </div>
         </header>
     )
