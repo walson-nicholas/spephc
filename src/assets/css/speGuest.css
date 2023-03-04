@@ -36,6 +36,13 @@
 }
 
 @media only screen and (max-width: 600px)  {
+    .special_Guest_container{
+        padding: 8vw 3vw;
+    }
+
+    .special_Guest_container h2{
+        font-size: 6vw;
+    }
     .sg-cards{
         flex-direction: column;
         padding: 0 5vw;
@@ -48,8 +55,7 @@
     }
 
     .sg-cards .sgcard-item img{
-        padding: 2vw;
-        height: 35vh;
+        height: 50vh;
     }
 
     .sg-cards .sgcard-item .card-body .card-title{
