@@ -6,15 +6,20 @@ import '../css/header.css'
 export default function Header() {
     return (
         <header>
-            <h3>Society of Petroleum Engineers, Port Harcourt (Section 103)</h3>
+            <h3 class="society">Society of Petroleum Engineers, Port Harcourt (Section 103)</h3>
 
             <h1>2023 YOUNG PROFESSIONAL SYMPOSIUM</h1>
 
             <div>
                 <div class="header_icons">
                     <i class="gg-pin"></i>
-                    <span>Casoni International Hotels and Suites</span>
+                    <span>
+                        Casoni International Hotels and Suites Ltd. <br />
+                        (#6 Presbyterian Close, off Stadium Road, PHC.)  
+                    </span>
                 </div>
+
+                <br />
 
                 <div class="header_icons">
                     <i class="gg-calendar-dates"></i>
