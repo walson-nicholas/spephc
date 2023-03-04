@@ -1,5 +1,5 @@
 header{
-    height: 80vh;
+    height: 85vh;
     background: rgba(0, 0, 0, .65) url(/src/assets/img/header-background.jpg);  
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,7 +16,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2.5vw;
+    font-size: 2vw;
 }
 
 .header_icons i{

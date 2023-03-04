@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.40a9b2f3.css",
+    "main.js": "/static/js/main.04bcf6a7.js",
+    "static/js/787.33c43f26.chunk.js": "/static/js/787.33c43f26.chunk.js",
+    "static/media/header-background.jpg": "/static/media/header-background.61b3bfb40a14b79c6730.jpg",
+    "static/media/ifeoma.png": "/static/media/ifeoma.a57b4ec0570ff5cb6bd7.png",
+    "static/media/keynote.jpg": "/static/media/keynote.fb94986d0baf38921537.jpg",
+    "static/media/uche.jpg": "/static/media/uche.60e676680a08b3329e74.jpg",
+    "static/media/anticipate flyer.jfif": "/static/media/anticipate flyer.dbd56dd710a371403c3e.jfif",
+    "static/media/machinelearning.png": "/static/media/machinelearning.4ba60acc0227f38c93e3.png",
+    "static/media/excel.png": "/static/media/excel.4b6dc61c88fd2dd9a488.png",
+    "static/media/ayuk.jpg": "/static/media/ayuk.946c927e56397a927508.jpg",
+    "static/media/spelogo.png": "/static/media/spelogo.4999ae094217ce787101.png",
+    "static/media/blockchain2.jpg": "/static/media/blockchain2.9c97a60a1c6d9e868f8a.jpg",
+    "static/media/businessanalytics.jpg": "/static/media/businessanalytics.674e262bcee0b78f9ade.jpg",
+    "static/media/yetunde.jpg": "/static/media/yetunde.471e8f1a761e7921c863.jpg",
+    "static/media/afolabi.jpg": "/static/media/afolabi.ee287deb81f91587f068.jpg",
+    "static/media/effiom.jpg": "/static/media/effiom.45b0d79db21d58c39cf4.jpg",
+    "static/media/felix.jfif": "/static/media/felix.cf9f9d7d3493b8fb906f.jfif",
+    "static/media/franklin.jpg": "/static/media/franklin.51a2eafecd7b67a252c4.jpg",
+    "index.html": "/index.html",
+    "main.40a9b2f3.css.map": "/static/css/main.40a9b2f3.css.map",
+    "main.04bcf6a7.js.map": "/static/js/main.04bcf6a7.js.map",
+    "787.33c43f26.chunk.js.map": "/static/js/787.33c43f26.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40a9b2f3.css",
+    "static/js/main.04bcf6a7.js"
+  ]
+}
