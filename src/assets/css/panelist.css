@@ -3,6 +3,10 @@
     text-align: center;
 }
 
+.accordion-header button{
+    font-size: 2.5vw;
+}
+
 .panel-content{
     display: flex;
     justify-content: space-between;
@@ -30,6 +34,14 @@
 }
 
 @media only screen and (max-width: 600px)  {
+    .panelist{
+        padding: 5vh 2vw;
+    }
+
+    .accordion-header{
+        margin-bottom: 4vw;
+    }
+
     .panel-content{
         flex-direction: column;
         align-items: center;
@@ -41,8 +53,8 @@
     }
 
     .panel-content img{
-        width: 65%;
-        height: 25vh;
+        width: 95%;
+        height: 45vh;
         padding: 0 7vw;
         border-radius: 3vw;
         margin-bottom: 2vh;
@@ -50,11 +62,21 @@
 
     .panel-content text{
         width: 100%;
-        font-size: 3.5vw;
+        font-size: 4vw;
         margin-bottom: 3vw;
+        text-align: justify;
+    }
+
+    .panel-content text strong{
+        display: inherit;
+        text-align: center;
     }
 
     .pn-btn{
         font-size: 4vw;
+    }
+
+    .accordion-header button{
+        font-size: 6vw;
     }
 }
