@@ -1,0 +1,67 @@
+.special_Guest_container{
+    padding: 3vw;
+}
+
+.special_Guest_container h2{
+    text-align: center;
+}
+
+.sg-cards{
+    display: flex;
+    justify-content: space-between;
+    padding: 4vh 10vw;
+}
+
+.sg-cards .sgcard-item{
+    width: 30vw;
+
+}
+
+.sg-cards .sgcard-item img{
+    height: 50vh;
+    width: 100%;
+}
+
+.sg-cards .sgcard-item img:hover{
+    filter: brightness(50%);
+}
+
+.sg-cards .sgcard-item .card-body .card-title{
+    font-size: 1.2vw;
+    font-weight: bolder;
+}
+
+.sg-cards .sgcard-item .card-body .card-text{
+    font-size: 1vw;
+}
+
+@media only screen and (max-width: 600px)  {
+    .sg-cards{
+        flex-direction: column;
+        padding: 0 5vw;
+    }
+
+    .sg-cards .sgcard-item{
+        margin: 0;
+        margin-bottom: 6vh;
+        width: 100%;
+    }
+
+    .sg-cards .sgcard-item img{
+        padding: 2vw;
+        height: 35vh;
+    }
+
+    .sg-cards .sgcard-item .card-body .card-title{
+        font-size: 4vw;
+        font-weight: bolder;
+    }
+
+    .sg-cards .sgcard-item .card-body .card-text{
+        font-size: 3vw;
+    }
+
+    .sg-cards .sgcard-item .card-body .cd-btn{
+        font-size: 3.5vw;
+    }
+}
